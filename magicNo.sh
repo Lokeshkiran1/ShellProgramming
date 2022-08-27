@@ -5,9 +5,9 @@ rev=0;
 n1=$n;
 while [ $n -ne 0 ]
 do
-	r=$(($n%10))
-	sum=$(($sum+$r))
-	n=$(($n/10))
+	r=$(($n%10));
+	sum=$(($sum+$r));
+	n=$(($n/10));
 done
 m=$sum;
 while [ $m -ne 0 ]
